@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv_jamaah"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/tv_nama_jamaah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Nama Jamaah"/>
+        <TextView
+            android:id="@+id/tv_umur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/umur"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_alamat_jamaah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Alamat Jamaah"/>
+        <TextView
+            android:id="@+id/tv_tgl_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="tgl input"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

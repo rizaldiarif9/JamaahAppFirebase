@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JamaahAppFirebase</string>
+    <string name="fab_string">Tambah Jamaah</string>
+    <string name="ed_hint_nama">Nama Jamaah</string>
+    <string name="ed_hint_alamat">Alamat Jamaah</string>
+    <string name="send_success">Berhasil ditambah</string>
+    <string name="send_error">Gagal ditambah</string>
+    <string name="radio_jamaah_female">Perempuan</string>
+    <string name="radio_jamaah_male">Laki-laki</string>
+    <string name="umur">%1$s tahun</string>
+    <string name="tanggal_lahir">tanggal lahir</string>
+    <string name="cari_menu" >Cari</string>
+    <string name="filter_menu">Filter</string>
+</resources>
